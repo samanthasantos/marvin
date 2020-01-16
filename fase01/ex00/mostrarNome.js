@@ -1,3 +1,3 @@
-function nomes(nome1,nome2) {
-    return "Arthur "  +  "e"  +  " Zaphod"
+function mostrarNome(){
+    console.log("Marvin")
 }
