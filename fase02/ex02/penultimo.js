@@ -1,3 +1,4 @@
-function penultimo(){
-    return "m"
+function penultimo(palavra) {
+    return palavra.substring(3)
 }
+
