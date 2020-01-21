@@ -1,3 +1,4 @@
 function finais(palavra) {
-    return "ect"
+    var palavras = palavra;
+    return palavra.substring(9)
 }
