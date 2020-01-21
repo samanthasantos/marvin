@@ -1,4 +1,4 @@
-function nomeDeVolta(){
+function nomeDeVolta () {
     console.log("Marvin");
-    return "o androide paranoide";
+    return "O andróide paranóide";
 }
