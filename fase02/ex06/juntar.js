@@ -1,3 +1,3 @@
-function juntar(numero1, numero2){
-    return ("10" + "2")
+function juntar(num1, num2){
+    return Number(num1 + num2.toString())
 }
