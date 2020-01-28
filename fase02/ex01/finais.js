@@ -1,4 +1,3 @@
-function finais(palavra) {
-    var palavras = palavra;
-    return palavra.substring(9)
+function finais(palavra){
+    return palavra.substring(palavra.length - 3)
 }
