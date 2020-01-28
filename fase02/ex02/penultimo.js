@@ -1,4 +1,3 @@
-function penultimo(palavra) {
-    return palavra.substring(3)
+function penultimo(palavra){
+    return palavra.substr(-2, 1)
 }
-
