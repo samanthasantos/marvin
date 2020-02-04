@@ -4,7 +4,7 @@ function tempo(data1, data2, unidade){
     switch(unidade){
         case "dia":
             var periodo = Math.abs(dataIni.getTime() -
-            dataFim.getTime())/100/60/60/24;
+            dataFim.getTime())/1000/60/60/24;
             return Math.round(periodo);
             break;
             case "mês":
