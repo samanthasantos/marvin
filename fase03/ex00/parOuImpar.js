@@ -1,10 +1,10 @@
-function pares(num1, num2){
-    var numero = (num1, num2)
+function parOuImpar(numero){
+    var num = numero
      var resto = numero %2
     if (resto == 0) {
-        return ("Os números são pares");
+        return ("par");
     }else {
-        return("Os números não são pares")
+        return("impar")
     }
     
 }
