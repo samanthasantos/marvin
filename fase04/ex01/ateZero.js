@@ -1,11 +1,16 @@
 function ateZero(numero){
-    var n = numero
-    if (-1 <= 0){
-        while(n < 0)
+    var n = 0
+    
+        while(n <= numero){
+        console.log(n)
+        n++
+        
+        }
+    
+    if(numero <= 0) {
+        while(n >= numero){
         console.log(numero)
-    }
-    else if(1 => 0) {
-        while(n >0)
-        console.log(numero)
+        numero++
+        }
     }
 }
